@@ -106,7 +106,7 @@ function Services2() {
             </div>
 
             <div className='offer'>
-    <a href='https://artopen.pl/oferta/reklama-zewnetrzna/' target='_blank
+    <a href='https://artopen.pl/oferta/reklama-zewnetrzna/' target='_blank'>
               <img
                 className='service-icon'
                 alt='gadżety'

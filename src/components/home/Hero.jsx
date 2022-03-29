@@ -54,16 +54,9 @@ const Hero = () => {
               </Link>
             </button>
             <button className='button is-success'>
-              <Link
-                to='https://artopen.pl/zamowienie-art-open/'
-                smooth={true}
-                duration={300}
-                exact='true'
-                offset={-65}
-                spy={true}
-              >
+              <a href='https://artopen.pl/zamowienie-art-open/' target='_blank'>
                 Zamów kalendarz
-              </Link>
+              </a>
             </button>
           </div>
           <div

@@ -12,8 +12,7 @@ function Services() {
         <div className='offert'>
           <div className='column'>
             <div className='offer'>
-    <Link
-            to='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
+    <a href='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
             smooth={true}
             duration={300}
             exact='true'
@@ -35,7 +34,7 @@ function Services() {
                 Wykonujemy unikatowe projekty graficzne w tym, reklamy
                 wielkoformatowe, grafiki 3D oraz wektorowe.
               </p>
-</Link>
+</a>
             </div>
 
             <div className='offer'>

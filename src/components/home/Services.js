@@ -39,6 +39,7 @@ function Services() {
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/portfolio/kalendarze-ksiazkowe-kghm/'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'
@@ -52,6 +53,7 @@ function Services() {
                 biurkowe, oparte o unikalne projekty graficzne, drukowane na
                 ekologicznym papierze z uszlachetnieniami.
               </p>
+</a>
             </div>
 
             <div className='offer'>

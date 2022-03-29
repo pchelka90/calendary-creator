@@ -540,6 +540,11 @@ nav {
 .submenu-item {
   padding: 6px;
 }
+
+.submenu-item:hover {
+  color: #1d809f;
+}
+
 button {
   display: inline-block;
   float: left;

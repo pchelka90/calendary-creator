@@ -12,7 +12,7 @@ function Services() {
         <div className='offert'>
           <div className='column'>
             <div className='offer'>
-    <a href='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
+    <a target='_blank' href='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
             smooth={true}
             duration={300}
             exact='true'
@@ -38,7 +38,7 @@ function Services() {
             </div>
 
             <div className='offer'>
-              <a href='https://artopen.pl/portfolio/kalendarze-ksiazkowe-kghm/'>
+              <a target='_blank' href='https://artopen.pl/portfolio/kalendarze-ksiazkowe-kghm/'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'

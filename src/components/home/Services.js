@@ -56,6 +56,7 @@ function Services() {
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/kalendarze-ksiazkowe/'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'
@@ -69,9 +70,11 @@ function Services() {
                 ekologicznych materiałów z innowacyjnymi dodatkami. Odporne na
                 wodę i rozdarcia z naturalnie białym środkiem.
               </p>
+</a>
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/kalendarze-firmowe/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'
@@ -86,11 +89,13 @@ function Services() {
                 papieru z kamienia, papieru z trawy, kukurydzianego PLA, słomy
                 pszenicznej czy organicznej bawełny.
               </p>
+</a>
             </div>
           </div>
 
           <div className='column'>
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/strony-internetowe/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Strony internetowe'
@@ -105,9 +110,11 @@ function Services() {
                 pod każdą rozdzielczość, zadbamy również o pozycjonowanie (SEO),
                 backupy, wsparcie techniczne oraz serwer.
               </p>
+</a>
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/gadzety/' target='_blank'>
               <img
                 className='service-icon'
                 alt='gadżety'

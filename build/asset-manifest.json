@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.936e9c57.css",
+    "main.js": "/static/js/main.c0148b78.js",
+    "static/css/191.a8d7ddd3.chunk.css": "/static/css/191.a8d7ddd3.chunk.css",
+    "static/js/191.f1fcbfc3.chunk.js": "/static/js/191.f1fcbfc3.chunk.js",
+    "static/js/650.da300042.chunk.js": "/static/js/650.da300042.chunk.js",
+    "static/js/752.56d540e9.chunk.js": "/static/js/752.56d540e9.chunk.js",
+    "static/css/728.aebe5c91.chunk.css": "/static/css/728.aebe5c91.chunk.css",
+    "static/js/728.070ea3a3.chunk.js": "/static/js/728.070ea3a3.chunk.js",
+    "static/js/607.61f95a08.chunk.js": "/static/js/607.61f95a08.chunk.js",
+    "static/js/844.fceb7484.chunk.js": "/static/js/844.fceb7484.chunk.js",
+    "static/js/480.6e632dd9.chunk.js": "/static/js/480.6e632dd9.chunk.js",
+    "static/js/168.4b4b83f8.chunk.js": "/static/js/168.4b4b83f8.chunk.js",
+    "static/js/911.ef547a07.chunk.js": "/static/js/911.ef547a07.chunk.js",
+    "index.html": "/index.html",
+    "main.936e9c57.css.map": "/static/css/main.936e9c57.css.map",
+    "main.c0148b78.js.map": "/static/js/main.c0148b78.js.map",
+    "191.a8d7ddd3.chunk.css.map": "/static/css/191.a8d7ddd3.chunk.css.map",
+    "191.f1fcbfc3.chunk.js.map": "/static/js/191.f1fcbfc3.chunk.js.map",
+    "650.da300042.chunk.js.map": "/static/js/650.da300042.chunk.js.map",
+    "752.56d540e9.chunk.js.map": "/static/js/752.56d540e9.chunk.js.map",
+    "728.aebe5c91.chunk.css.map": "/static/css/728.aebe5c91.chunk.css.map",
+    "728.070ea3a3.chunk.js.map": "/static/js/728.070ea3a3.chunk.js.map",
+    "607.61f95a08.chunk.js.map": "/static/js/607.61f95a08.chunk.js.map",
+    "844.fceb7484.chunk.js.map": "/static/js/844.fceb7484.chunk.js.map",
+    "480.6e632dd9.chunk.js.map": "/static/js/480.6e632dd9.chunk.js.map",
+    "168.4b4b83f8.chunk.js.map": "/static/js/168.4b4b83f8.chunk.js.map",
+    "911.ef547a07.chunk.js.map": "/static/js/911.ef547a07.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.936e9c57.css",
+    "static/js/main.c0148b78.js"
+  ]
+}

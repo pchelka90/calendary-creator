@@ -129,9 +129,11 @@ function Services() {
                 MAGIC, ładowarki indukcyjne, głośniki, pendrive'y i wiele
                 innych.
               </p>
+</a>
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/wydruki/' target='_blank'>
               <img
                 className='service-icon'
                 alt='mapka'
@@ -145,9 +147,11 @@ function Services() {
                 plakaty, publikacje, katalogi i inne produkty wykorzystując
                 ekologiczny papier oraz farby.
               </p>
+</a>
             </div>
 
             <div className='offer'>
+              <a href='https://artopen.pl/oferta/filmowanie/' target='_blank'>
               <img
                 className='service-icon'
                 alt='kamera'
@@ -163,6 +167,7 @@ function Services() {
                 animacji takich jak animacje 2D, 3D, SVG, CSS czy fotograficzne
                 lub rysowane poklatkowe.
               </p>
+</a>
             </div>
           </div>
         </div>

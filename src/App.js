@@ -3,6 +3,7 @@ import Home from './components/home/Home';
 import { BrowserRouter } from 'react-router-dom';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import Navbar from './components/home/Navbar';
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
+      <Navbar></Navbar>
       <Home />
     </BrowserRouter>
   );

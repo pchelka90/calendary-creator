@@ -13,7 +13,7 @@ function Services() {
           <div className='column'>
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Projektowanie graficzne'
                 src='/assets/images/pencil-alt.svg'
               />
@@ -21,16 +21,17 @@ function Services() {
                 <strong>Projektowanie graficzne</strong>
               </h2>
               <p class='text-faded mb-0'>
-                Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe
-                projekty graficzne w tym, logotypy, strony internetowe,
-                identyfikacje wizualne, reklamy wielkoformatowe, grafiki 3D oraz
-                wektorowe.
+                Jesteśmy Agencją kreatywną specjalizującą się w brandingu i
+                identyfikacji wizualnej. Kompleksowe usługi projektowe:
+                identyfikacja, strony www, logo, ilustracje, animacje.
+                Wykonujemy unikatowe projekty graficzne w tym, reklamy
+                wielkoformatowe, grafiki 3D oraz wektorowe.
               </p>
             </div>
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Kalendarze firmowe'
                 src='/assets/images/calendar-alt.svg'
               />
@@ -46,7 +47,7 @@ function Services() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Kalendarze firmowe'
                 src='/assets/images/book.svg'
               />
@@ -62,7 +63,7 @@ function Services() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Kalendarze firmowe'
                 src='/assets/images/leaf.svg'
               />
@@ -81,7 +82,7 @@ function Services() {
           <div className='column'>
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Strony internetowe'
                 src='/assets/images/laptop-code.svg'
               />
@@ -98,7 +99,7 @@ function Services() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='gadżety'
                 src='/assets/images/lightbulb.svg'
               />
@@ -115,7 +116,7 @@ function Services() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='mapka'
                 src='/assets/images/map.svg'
               />
@@ -131,7 +132,7 @@ function Services() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='kamera'
                 src='/assets/images/film.svg'
               />

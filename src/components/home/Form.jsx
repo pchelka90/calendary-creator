@@ -80,7 +80,7 @@ class Form extends React.Component {
           data-netlify-honeypot='bot-field'
           onSubmit={this.handleSubmit}
           className='boxshadow'
-          style={{ padding: '20px', backgroundColor: '#23C495' }}
+          style={{ backgroundColor: '#23C495' }}
         >
           {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type='hidden' name='form-name' value='aplikacja' />

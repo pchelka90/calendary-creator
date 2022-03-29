@@ -8,16 +8,7 @@ function ContactPageTemplate() {
         <h2>Formularz kontaktowy</h2>
         <h4>Wyślij nam wiadomość!</h4>
       </div>
-      <div
-        className='columns'
-        id='formularz_kontaktowy'
-        style={{
-          marginLeft: '10%',
-          marginRight: '10%',
-          marginTop: '50px',
-          marginBottom: '50px',
-        }}
-      >
+      <div className='columns' id='formularz_kontaktowy'>
         <div className='column' style={{ lineHeight: '40px' }}>
           <h3 className='subtitle'>
             <b>Biuro obsługi klienta</b>
@@ -25,7 +16,6 @@ function ContactPageTemplate() {
           <h4 style={{ marginBottom: '30px' }}>
             <img
               width='20px'
-              style={{ verticalAlign: 'middle', marginRight: '15px' }}
               alt='godziny otwarcia'
               src='assets/images/clock.svg'
             />
@@ -35,7 +25,6 @@ function ContactPageTemplate() {
           <p>
             <img
               width='20px'
-              style={{ verticalAlign: 'middle', marginRight: '15px' }}
               alt='ulica'
               src='assets/images/map-marker-alt.svg'
             />
@@ -45,7 +34,7 @@ function ContactPageTemplate() {
           <p>
             <img
               width='20px'
-              style={{ verticalAlign: 'middle', marginRight: '15px' }}
+              style={{ verticalAlign: 'middle' }}
               alt='miasto'
               src='assets/images/city.svg'
             />
@@ -62,11 +51,6 @@ function ContactPageTemplate() {
             <a href='mailto:biuro@artopen.pl' className='button-green'>
               <img
                 width='20px'
-                style={{
-                  verticalAlign: 'middle',
-                  marginLeft: '5px',
-                  marginRight: '15px',
-                }}
                 alt='email'
                 src='/assets/images/envelope-alt.svg'
               />
@@ -78,11 +62,6 @@ function ContactPageTemplate() {
             <a href='tel:+48 71 728 29 13' className='button-green'>
               <img
                 width='20px'
-                style={{
-                  verticalAlign: 'middle',
-                  marginLeft: '5px',
-                  marginRight: '15px',
-                }}
                 alt='numer telefonu'
                 src='/assets/images/phone.svg'
               />
@@ -94,11 +73,6 @@ function ContactPageTemplate() {
             <a href='tel:+48 535 000 881' className='button-green'>
               <img
                 width='20px'
-                style={{
-                  verticalAlign: 'middle',
-                  marginLeft: '5px',
-                  marginRight: '15px',
-                }}
                 alt='numer komórkowy'
                 src='/assets/images/mobile.svg'
               />

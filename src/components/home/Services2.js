@@ -13,7 +13,7 @@ function Services2() {
           <div className='column'>
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Projektowanie graficzne'
                 src='/assets/images/camera-retro.svg'
               />
@@ -29,7 +29,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='opakowania'
                 src='/assets/images/box-open.svg'
               />
@@ -46,7 +46,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Kalendarze firmowe'
                 src='/assets/images/pencil-ruler.svg'
               />
@@ -62,7 +62,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Kalendarze firmowe'
                 src='/assets/images/cubes.svg'
               />
@@ -80,7 +80,7 @@ function Services2() {
           <div className='column'>
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='Strony internetowe'
                 src='/assets/images/vr-cardboard.svg'
               />
@@ -97,7 +97,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='gadżety'
                 src='/assets/images/object-ungroup.svg'
               />
@@ -113,7 +113,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='mapka'
                 src='/assets/images/map.svg'
               />
@@ -129,7 +129,7 @@ function Services2() {
 
             <div className='offer'>
               <img
-                className='service-icon rounded-circle'
+                className='service-icon'
                 alt='kamera'
                 src='/assets/images/viruses.svg'
               />

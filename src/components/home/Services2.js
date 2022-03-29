@@ -67,7 +67,7 @@ function Services2() {
             </div>
 
             <div className='offer'>
-    <a href='https://artopen.pl/oferta/kalendarze-firmowe/' target='_blank
+    <a href='https://artopen.pl/oferta/kalendarze-firmowe/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'

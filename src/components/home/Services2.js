@@ -124,7 +124,7 @@ function Services2() {
             </div>
 
             <div className='offer'>
-    <a href='https://artopen.pl/oferta/ekologia/' target='_blank
+    <a href='https://artopen.pl/oferta/ekologia/' target='_blank'>
               <img
                 className='service-icon'
                 alt='mapka'

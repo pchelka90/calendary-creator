@@ -134,8 +134,9 @@ const Przyklad = () => {
         freeMode={true}
         autoplay={{ delay: 5000 }}
         loop={true}
-        className='conta>
->
+        className='container'
+      >
+        {swiperSlide}
       </Swiper>
       <div className='portfolio_link'>
         <h6 className='submenu-item' style={{ fontSize: '13px' }}>
@@ -160,3 +161,4 @@ const Przyklad = () => {
 };
 
 export default Przyklad;
+

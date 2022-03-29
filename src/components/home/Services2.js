@@ -12,6 +12,7 @@ function Services2() {
         <div className='offert'>
           <div className='column'>
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/fotografia/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Projektowanie graficzne'
@@ -25,9 +26,11 @@ function Services2() {
                 firmowych, obiektów, eventów oraz ludzi, oferujemy obróbkę
                 graficzną zdjęć oraz ujęcia z drona.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/opakowania/' target='_blank'>
               <img
                 className='service-icon'
                 alt='opakowania'
@@ -42,9 +45,11 @@ function Services2() {
                 technikami. Oferujemy niepowtarzalny projekt graficzny oraz
                 ekologiczne materiały.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/kalendarze-ksiazkowe/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'
@@ -58,9 +63,11 @@ function Services2() {
                 ekologicznych materiałów z innowacyjnymi dodatkami. Odporne na
                 wodę i rozdarcia z naturalnie białym środkiem.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/kalendarze-firmowe/' target='_blank
               <img
                 className='service-icon'
                 alt='Kalendarze firmowe'
@@ -74,11 +81,13 @@ function Services2() {
                 lady, stoiska multimedialne, systemy wystawiennicze, firmowe
                 flagi oraz przenośnie stoiska targowe.
               </p>
+    </a>
             </div>
           </div>
 
           <div className='column'>
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/strony-internetowe/' target='_blank'>
               <img
                 className='service-icon'
                 alt='Strony internetowe'
@@ -93,9 +102,11 @@ function Services2() {
                 niezapomniane przeżycie zarazem kreując nowoczesny wizerunek dla
                 Twojego biznesu.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/reklama-zewnetrzna/' target='_blank
               <img
                 className='service-icon'
                 alt='gadżety'
@@ -109,9 +120,11 @@ function Services2() {
                 tablice, siatki mesh, billboardy reklamowe i inne. Zadbamy o
                 odpowiednią lokalizację oraz przygotowanie.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/ekologia/' target='_blank
               <img
                 className='service-icon'
                 alt='mapka'
@@ -125,9 +138,11 @@ function Services2() {
                 plakaty, publikacje, katalogi i inne produkty wykorzystując
                 ekologiczny papier oraz farby.
               </p>
+    </a>
             </div>
 
             <div className='offer'>
+    <a href='https://artopen.pl/oferta/covid-19/' target='_blank'>
               <img
                 className='service-icon'
                 alt='kamera'
@@ -142,6 +157,7 @@ function Services2() {
                 ochrony zdrowia znajdziecie Państwo w naszej ofercie przeciwko
                 Covid-19.
               </p>
+    </a>
             </div>
           </div>
         </div>

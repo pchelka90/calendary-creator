@@ -69,12 +69,20 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
+a:hover {
+      color: #fff;
+    background: #23c495;
+}
+
 h1,
 h2,
 h3,

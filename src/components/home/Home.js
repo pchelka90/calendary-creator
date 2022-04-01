@@ -1,15 +1,17 @@
-import { GoogleApiWrapper } from 'google-maps-react';
 import React, { lazy, Suspense } from 'react';
 import Spinner from '../utilities/Spinner';
 
 const Navbar = lazy(() => import('./Navbar'));
 const Hero = lazy(() => import('./Hero'));
+const Banner = lazy(() => import('./Banner'));
+const Banner2 = lazy(() => import('./Banner2'));
+const Banner3 = lazy(() => import('./Banner3'));
+const Banner4 = lazy(() => import('./Banner4'));
 const Kreator = lazy(() => import('./Kreator'));
 const Form = lazy(() => import('./Form'));
-const Przyklad = lazy(() => import('./Przyklad'));
+const Przyklady = lazy(() => import('./Przyklady'));
 const Services = lazy(() => import('./Services'));
-const Services2 = lazy(() => import('./Services2'));
-const ContactPageTemplate = lazy(() => import('./ContactPageTemplate'));
+const Contact = lazy(() => import('./Contact'));
 const Footer = lazy(() => import('./Footer'));
 
 const Home = () => {
@@ -17,13 +19,15 @@ const Home = () => {
     <Suspense fallback={<Spinner />}>
       <Navbar />
       <Hero />
+      <Banner />
       <Kreator />
       <Form />
-      <Przyklad />
+      <Banner2 />
+      <Przyklady />
+      <Banner3 />
       <Services />
-      <Services2 />
-      <ContactPageTemplate />
-      <GoogleApiWrapper />
+      <Banner4 />
+      <Contact />
       <Footer />
     </Suspense>
   );

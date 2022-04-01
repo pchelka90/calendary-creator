@@ -71,7 +71,14 @@ class Form extends React.Component {
 
   render() {
     return (
-      <div id='kontakt'>
+      <div className='contact-box' id='kontakt'>
+        <h1 className='formH1'>
+          <strong>Prześlij swój projekt</strong>
+          <br />
+          za pomocą formularza
+        </h1>
+        <img className='formIMG' src='/assets/images/list.svg' />
+        <img className='strzaleczka' src='/assets/images/strzaleczka.png' />
         <form
           name='kontakt'
           id='kontaktform'
@@ -90,157 +97,137 @@ class Form extends React.Component {
               <input name='bot-field' onChange={this.handleChange} />
             </label>
           </div>
-          <div className='columns'>
-            <div className='column'>
-              <label className='label' htmlFor={'name'}>
-                Imię<sup>*</sup>:
-              </label>
-              <div className='control'>
-                <input
-                  className='input'
-                  type={'text'}
-                  name={'imię'}
-                  onChange={this.handleChange}
-                  id={'imionew'}
-                  required={true}
-                />
-              </div>
-              <div className='field'>
-                <label className='label' htmlFor={'name'}>
-                  Nazwisko<sup>*</sup>:
-                </label>
-                <div className='control'>
-                  <input
-                    className='input'
-                    type={'text'}
-                    name={'nazwisko'}
-                    onChange={this.handleChange}
-                    id={'nazwiskonew'}
-                    required={true}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className='column'>
-              <label className='label_email' htmlFor={'email'}>
-                Adres E-mail<sup>*</sup>:
-              </label>
-              <div className='control'>
-                <input
-                  className='input'
-                  type={'email'}
-                  name={'adres email'}
-                  onChange={this.handleChange}
-                  id={'adres emailnew'}
-                  required={true}
-                />
-              </div>
-
-              <div className='field numer_tel'>
-                <label className='label' htmlFor={'name'}>
-                  Numer telefonu:
-                </label>
-                <div className='control'>
-                  <input
-                    className='input'
-                    type={'number'}
-                    name={'numer telefonu'}
-                    onChange={this.handleChange}
-                    id={'numertelnew'}
-                    required={false}
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className='column'>
-              <div className='control'>
-                <label className='label is-size-10'>Załącz plik:</label>
-                {/*załącz logo*/}
-
-                <div className='file'>
-                  <label className='file-label' style={{ cursor: 'pointer' }}>
-                    {/*onInput ={(o) => handleInput(o)}*/}
-                    <input
-                      className='custom-file-input'
-                      type='file'
-                      name='plik'
-                      style={{ cursor: 'pointer' }}
-                      onChange={this.handleAttachment}
-                      id='fileinputnew'
-                    />
-                  </label>
-                </div>
-                <br />
-                <p
-                  align='center'
-                  style={{
-                    backgroundColor: '#111111',
-                    color: 'white',
-                    padding: '2px',
-                    fontSize: '12px',
-                  }}
-                >
-                  {' '}
-                  Maksymalna wielkość pliku to <b>1MB</b>.{' '}
-                </p>
-              </div>
+          <label className='label_imie' htmlFor={'name'}>
+            Imię i nazwisko<sup>*</sup>:
+          </label>
+          <div className='control'>
+            <input
+              className='input'
+              type={'text'}
+              name={'imię'}
+              onChange={this.handleChange}
+              id={'imionew'}
+              required={true}
+            />
+          </div>
+          <label className='label_email' htmlFor={'email'}>
+            Adres E-mail<sup>*</sup>:
+          </label>
+          <div className='control'>
+            <input
+              className='input'
+              type={'email'}
+              name={'adres email'}
+              onChange={this.handleChange}
+              id={'adres emailnew'}
+              required={true}
+            />
+          </div>
+          <div className='field numer_tel'>
+            <label className='label' htmlFor={'name'}>
+              Numer telefonu:
+            </label>
+            <div className='control'>
+              <input
+                className='input'
+                type={'number'}
+                name={'numer telefonu'}
+                onChange={this.handleChange}
+                id={'numertelnew'}
+                required={false}
+              />
             </div>
           </div>
-          <div className='columns'>
-            <div className='column'>
-              <label className='label' htmlFor={'message'}>
-                Wiadomość<sup>*</sup>:
+
+          <div className='control'>
+            <label className='label is-size-10'>Załącz plik:</label>
+            {/*załącz logo*/}
+
+            <div className='file'>
+              <label className='file-label' style={{ cursor: 'pointer' }}>
+                {/*onInput ={(o) => handleInput(o)}*/}
+                <input
+                  className='custom-file-input'
+                  type='file'
+                  name='plik'
+                  style={{ cursor: 'pointer' }}
+                  onChange={this.handleAttachment}
+                  id='fileinputnew'
+                />
               </label>
-              <textarea
-                className='textarea'
-                type={'text'}
-                name={'wiadomość'}
-                onChange={this.handleChange}
-                id={'wiadomośćnew'}
+            </div>
+            <br />
+            <p
+              align='center'
+              style={{
+                backgroundColor: '#111111',
+                color: 'white',
+                padding: '2px',
+                fontSize: '12px',
+              }}
+            >
+              {' '}
+              Maksymalna wielkość pliku to <b>1MB</b>.{' '}
+            </p>
+          </div>
+          <label className='label_wiadomosc' htmlFor={'message'}>
+            Wiadomość<sup>*</sup>:
+          </label>
+          <textarea
+            className='textarea'
+            type={'text'}
+            name={'wiadomość'}
+            onChange={this.handleChange}
+            id={'wiadomośćnew'}
+            required={true}
+            rows='7'
+          ></textarea>
+          <div className='checkbox'>
+            <label
+              style={{ fontSize: '12px' }}
+              className='main'
+              htmlFor='privacynew'
+            >
+              {' '}
+              <input
                 required={true}
-                rows='7'
-              ></textarea>
-              <div className='checkbox'>
-                <label
-                  style={{ fontSize: '12px' }}
-                  className='main'
-                  htmlFor='privacynew'
-                >
-                  {' '}
-                  <input
-                    required={true}
-                    onChange={this.handleChange}
-                    type='checkbox'
-                    id='privacynew'
-                    name='privacy'
-                    defaultChecked='true'
-                    value='true'
-                  />
-                  Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą{' '}
-                  <a
-                    className='link-green'
-                    style={{ color: 'white' }}
-                    href='/polityka-prywatnosci/'
-                  >
-                    polityką prywatności
-                  </a>
-                </label>
-                <div className='column'>
-                  <button
-                    className='button is-primary'
-                    style={{ border: '1px solid white' }}
-                    type='submit'
-                    onSubmit={this.handleSubmit}
-                    onClick={showFileSize}
-                  >
-                    Zamów
-                  </button>
-                </div>
-              </div>
+                onChange={this.handleChange}
+                type='checkbox'
+                id='privacynew'
+                name='privacy'
+                defaultChecked='true'
+                value='true'
+              />
+              Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą{' '}
+              <a
+                className='link-green'
+                style={{ color: 'white' }}
+                href='/polityka-prywatnosci/'
+              >
+                polityką prywatności
+              </a>
+            </label>
+            <div className='button_wyslij'>
+              <button
+                className='button is-primary'
+                style={{ border: '1px solid white' }}
+                type='submit'
+                onSubmit={this.handleSubmit}
+                onClick={showFileSize}
+              >
+                Wyślij
+              </button>
             </div>
           </div>
         </form>
+        <div className='rest'>
+          <h1 className='restH1'>
+            <strong>Teraz odpocznij</strong>
+            <br />
+            my zajmiemy się resztą
+          </h1>
+          <img className='restIMG' src='/assets/images/kawa.svg' />
+        </div>
       </div>
     );
   }

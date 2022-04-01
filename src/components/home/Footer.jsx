@@ -10,14 +10,14 @@ class Footer extends React.Component {
       >
         <div className='container'>
           <div style={{ textAlign: 'center' }}>
-            <Link to='/'>
+            <a href='/'>
               <img
                 width='200px'
                 src='/assets/images/ao_ukraina-w.svg'
                 id='logo-footer'
                 alt='Agencja reklamowa Art Open'
               />
-            </Link>
+            </a>
             <br></br>
           </div>
           <br></br>
@@ -28,134 +28,141 @@ class Footer extends React.Component {
             >
               <h5>
                 <b>
-                  <Link style={{ color: 'white' }} to='/oferta/'>
+                  <a style={{ color: 'white' }} href='/oferta/'>
                     Oferta
-                  </Link>
+                  </a>
                 </b>
               </h5>
               <br />
-              <Link className='submenu-item' to='/oferta/covid-19/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/covid-19/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='covid-19'
                   src='/assets/images/viruses.svg'
                 />
                 Covid-19
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/ekologia/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/ekologia/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='ekologia'
                   src='/assets/images/leaf.svg'
                 />
                 Ekologia
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/branding/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/branding/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='branding'
                   src='/assets/images/pencil-ruler.svg'
                 />
                 Branding
-              </Link>
+              </a>
 
               <ul className='fmenu'>
-                <Link
+                <a
                   className='submenu-item'
-                  to='/oferta/projektowanie-graficzne/'
+                  href='https://artopen.pl/oferta/projektowanie-graficzne/'
                 >
                   <img
-                    width='10px'
                     className='icon-green'
                     alt='branding'
                     src='/assets/images/pencil-alt.svg'
                   />
                   Projektowanie graficzne
-                </Link>
+                </a>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/projektowanie-graficzne/logotypy/'
+                    href='https://artopen.pl/oferta/projektowanie-graficzne/logotypy/'
                   >
                     Logotypy
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/projektowanie-graficzne/siw-identyfikacja-wizualna/'
+                    href='https://artopen.pl/oferta/projektowanie-graficzne/siw-identyfikacja-wizualna/'
                   >
                     Identyfikacja wizualna
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/projektowanie-graficzne/grafika-wektorowa/'
+                    href='https://artopen.pl/oferta/projektowanie-graficzne/grafika-wektorowa/'
                   >
                     Grafika wektorowa
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/projektowanie-graficzne/projektowanie-stron-internetowych/'
+                    href='https://artopen.pl/oferta/projektowanie-graficzne/projektowanie-stron-internetowych/'
                   >
                     Projektowanie stron internetowych
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
               <ul className='fmenu'>
-                <Link className='submenu-item' to='/oferta/strony-internetowe/'>
+                <a className='submenu-item' href='/oferta/strony-internetowe/'>
                   <img
-                    width='10px'
                     className='icon-green'
                     alt='strony internetowe'
                     src='/assets/images/code.svg'
                   />
                   Strony internetowe
-                </Link>
+                </a>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/strony-internetowe/tworzenie-stron-internetowych/'
+                    href='https://artopen.pl/oferta/strony-internetowe/tworzenie-stron-internetowych/'
                   >
                     Tworzenie stron internetowych
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/strony-internetowe/tworzenie-sklepow-internetowych/'
+                    href='https://artopen.pl/oferta/strony-internetowe/tworzenie-sklepow-internetowych/'
                   >
                     Tworzenie sklepów internetowych
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/strony-internetowe/aplikacje-webowe/'
+                    href='https://artopen.pl/oferta/strony-internetowe/aplikacje-webowe/'
                   >
                     Aplikacje webowe
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/strony-internetowe/pozycjonowanie-stron-internetowych-seo/'
+                    href='https://artopen.pl/oferta/strony-internetowe/pozycjonowanie-stron-internetowych-seo/'
                   >
                     Pozycjonowanie stron internetowych
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
-              <Link className='submenu-item' to='/oferta/kalendarze-ksiazkowe/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/kalendarze-ksiazkowe/'
+              >
                 <img
                   width='10px'
                   className='icon-green'
@@ -163,187 +170,341 @@ class Footer extends React.Component {
                   src='/assets/images/book.svg'
                 />
                 Kalendarze książkowe
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/kalendarze-firmowe/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/kalendarze-firmowe/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='kalendarze firmowe'
                   src='/assets/images/calendar-alt.svg'
                 />
                 Kalendarze firmowe
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/gadzety/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/gadzety/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='gadżety'
                   src='/assets/images/lightbulb.svg'
                 />
                 Gadżety reklamowe
-              </Link>
+              </a>
             </div>
 
             <div
               className='column removespace'
-              style={{ padding: '20px', marginTop: '30px', marginRight: '10%' }}
+              style={{ padding: '20px', marginTop: '30px' }}
             >
               <br />
               <br />
 
-              <Link className='submenu-item' to='/oferta/wydruki/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/wydruki/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='wydruki'
                   src='/assets/images/map.svg'
                 />
                 Wydruki reklamowe
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/reklama-zewnetrzna/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/reklama-zewnetrzna/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='reklama zewnętrzna'
                   src='/assets/images/object-ungroup.svg'
                 />
                 Reklamy outdoor
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/fotografia/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/fotografia/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='fotografia'
                   src='/assets/images/camera-retro.svg'
                 />
                 Fotografie produktowe
-              </Link>
+              </a>
 
-              <Link className='submenu-item' to='/oferta/wystawiennictwo/'>
+              <a
+                className='submenu-item'
+                href='https://artopen.pl/oferta/wystawiennictwo/'
+              >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='wystawiennictwo'
                   src='/assets/images/cubes.svg'
                 />
                 Systemy wystawiennicze
-              </Link>
+              </a>
 
               <ul className='fmenu'>
-                <Link className='submenu-item' to='/oferta/filmowanie/'>
+                <a
+                  className='submenu-item'
+                  href='https://artopen.pl/oferta/filmowanie/'
+                >
                   <img
-                    width='10px'
                     className='icon-green'
                     alt='filmowanie'
                     src='/assets/images/film.svg'
                   />
                   Filmy reklamowe
-                </Link>
+                </a>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/filmowanie/filmy-animowane/'
+                    href='https://artopen.pl/oferta/filmowanie/filmy-animowane/'
                   >
                     Filmy animowane
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link className='submenu-item' to='/oferta/filmowanie/video/'>
-                    Video filmowanie
-                  </Link>
-                </li>
-                <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/filmowanie/storyboard/'
+                    href='https://artopen.pl/oferta/filmowanie/video/'
+                  >
+                    Video filmowanie
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/oferta/filmowanie/storyboard/'
                   >
                     Storyboard
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/filmowanie/montowanie-filmow/'
+                    href='https://artopen.pl/oferta/filmowanie/montowanie-filmow/'
                   >
                     Montowanie filmów
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
               <ul className='fmenu'>
-                <Link className='submenu-item' to='/oferta/opakowania/'>
+                <a
+                  className='submenu-item'
+                  href='https://artopen.pl/oferta/opakowania/'
+                >
                   <img
-                    width='10px'
                     className='icon-green'
                     alt='opakowania'
                     src='/assets/images/box-open.svg'
                   />
                   Opakowania
-                </Link>
+                </a>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/opakowania/pudelka-kartonowe/'
+                    href='https://artopen.pl/oferta/opakowania/pudelka-kartonowe/'
                   >
                     Pudełka kartonowe
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/opakowania/pudelka-ozdobne/'
+                    href='https://artopen.pl/oferta/opakowania/pudelka-ozdobne/'
                   >
                     Pudełka ozdobne
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/opakowania/pudelka-do-przechowywania/'
+                    href='https://artopen.pl/oferta/opakowania/pudelka-do-przechowywania/'
                   >
                     Pudełka do przechowywania
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     className='submenu-item'
-                    to='/oferta/opakowania/pudelka-na-prezenty/'
+                    href='https://artopen.pl/oferta/opakowania/pudelka-na-prezenty/'
                   >
                     Pudełka na prezenty
-                  </Link>
+                  </a>
                 </li>
               </ul>
 
-              <Link className='submenu-item' to='/oferta/vr/'>
+              <a className='submenu-item' href='https://artopen.pl/oferta/vr/'>
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='VR'
                   src='/assets/images/vr-cardboard.svg'
                 />
                 Wirtualna rzeczywistość
-              </Link>
+              </a>
+            </div>
+            <div
+              className='column'
+              style={{ padding: '20px', marginTop: '25px' }}
+            >
+              <h5>
+                <b>
+                  <a style={{ color: 'white' }} href='https://artopen.pl/blog/'>
+                    Blog
+                  </a>
+                </b>
+              </h5>
+              <ul className='blog_list'>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/jak-zrobic-logo-dla-firmy-lub-marki/'
+                  >
+                    Jak zrobić logo dla firmy lub marki?
+                  </a>{' '}
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/jakie-sluchawki-bezprzewodowe-wybrac/'
+                  >
+                    Jakie słuchawki bezprzewodowe wybrać?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/odnawialne-zrodla-energii/'
+                  >
+                    Odnawialen źródła energii
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/akcesoria-i-gadzety-do-auta/'
+                  >
+                    Gadżety do auta
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/aktualne-wymiary-grafik-na-facebooku-2022/'
+                  >
+                    Wymiary grafik na facebooku - 2022
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/wcag-2-1-co-to-jest/'
+                  >
+                    WCAG 2.1 - co to jest i jak to działa?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/metody-zarzadzania-przedsiebiorstwem/'
+                  >
+                    Zarządzanie procesowe - czym jest i jakie są jego zalety?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/metody-zarzadzania-przedsiebiorstwem/'
+                  >
+                    Nowoczesna technologia, a energetyka
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/systemy-cms-czym-sa-i-jaki-wybrac/'
+                  >
+                    Systemy CMS - czym są i jaki wybrać?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/gadzety-na-prezent-co-wybrac/'
+                  >
+                    Gadżety na prezent - co wybrać?
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/akcja-sprzatanie-otwarci-na-srodowisko-vol-2/'
+                  >
+                    Akcja sprzątanie - Otwarci na środowisko - vol.2
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/pier-luigi-nagroda-2021/'
+                  >
+                    Diamentowy dystrybutor marki Pier Luigi 1993
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/oferta-pracy-jezyk-niemiecki/'
+                  >
+                    Oferta pracy - język niemiecki
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/eco-friendly-dlaczego-warto-byc/'
+                  >
+                    Dlaczego warto być ECO friendly
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className='submenu-item'
+                    href='https://artopen.pl/blog/zwierzaki-w-potrzebie/'
+                  >
+                    Wiżyta w schronisku - zwierzaki w potrzebie
+                  </a>
+                </li>
+              </ul>
             </div>
 
             <div
               className='column'
-              style={{ marginRight: '15%', padding: '20px', marginTop: '25px' }}
+              style={{ padding: '20px', marginTop: '25px' }}
             >
               <h5>
                 <b>
-                  <Link style={{ color: 'white' }} to='/kontakt/'>
+                  <a
+                    style={{ color: 'white' }}
+                    href='https://artopen.pl/kontakt/'
+                  >
                     Kontakt
-                  </Link>
+                  </a>
                 </b>
               </h5>
               <br />
               <p className='submenu-item'>
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='adres'
                   src='/assets/images/map-marker-alt.svg'
@@ -352,7 +513,6 @@ class Footer extends React.Component {
               </p>
               <p className='submenu-item'>
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='adres'
                   src='/assets/images/city.svg'
@@ -367,7 +527,6 @@ class Footer extends React.Component {
                 style={{ textDecoration: 'underline' }}
               >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='telefon'
                   src='/assets/images/phone.svg'
@@ -381,7 +540,6 @@ class Footer extends React.Component {
                 style={{ textDecoration: 'underline' }}
               >
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='email'
                   src='/assets/images/paper-plane.svg'
@@ -392,7 +550,6 @@ class Footer extends React.Component {
               <br />
               <p className='submenu-item'>
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='godziny otwarcia'
                   src='/assets/images/clock.svg'
@@ -434,7 +591,6 @@ class Footer extends React.Component {
               >
                 {' '}
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='adres'
                   src='/assets/images/address-card.svg'
@@ -457,7 +613,6 @@ class Footer extends React.Component {
               >
                 {' '}
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='adres'
                   src='/assets/images/envelope-alt.svg'
@@ -482,7 +637,6 @@ class Footer extends React.Component {
               >
                 {' '}
                 <img
-                  width='10px'
                   className='icon-green'
                   alt='adres'
                   src='/assets/images/address-card.svg'
@@ -506,8 +660,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='facebook'
                 src='/assets/images/facebook-square.svg'
               />
@@ -518,8 +671,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='youtube'
                 src='/assets/images/youtube-square.svg'
               />
@@ -530,8 +682,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='linkedin'
                 src='/assets/images/linkedin.svg'
               />
@@ -542,8 +693,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='tweeter'
                 src='/assets/images/twitter-square.svg'
               />
@@ -554,8 +704,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='instagram'
                 src='/assets/images/instagram-square.svg'
               />
@@ -566,8 +715,7 @@ class Footer extends React.Component {
               target='_blank'
             >
               <img
-                width='25px'
-                className='icon-green'
+                className='icon-sociale'
                 alt='behance'
                 src='/assets/images/behance-square.svg'
               />

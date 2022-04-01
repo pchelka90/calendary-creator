@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
         <div
           className='nav__menu nav__list nav__item'
-          style={{ top: !toggle ? '' : '10%' }}
+          style={{ top: !toggle ? '' : '1%' }}
         >
           <Link
             className='nav__link active-link'
@@ -58,7 +58,7 @@ const Navbar = () => {
             offset={-65}
             spy={true}
           >
-            Kalendarze
+            Realizacje
           </Link>
           <Link
             className='nav__link active-link'
@@ -69,7 +69,7 @@ const Navbar = () => {
             offset={-65}
             spy={true}
           >
-            Dowiedz się
+            Oferta
           </Link>
           <Link
             className='nav__link active-link'

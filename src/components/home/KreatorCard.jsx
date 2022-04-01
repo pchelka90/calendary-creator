@@ -8,28 +8,25 @@ const KreatorCard = (props) => {
   return (
     <div>
       <iframe
-        async
+        allowtransparency='true'
         loading='lazy'
+        scrolling='no'
         style={{
           width: '100% !important',
           marginTop: '0px',
           height: '865px',
           overflow: 'visible',
         }}
-        src='https://kreator.pierluigi.pl/?mode=iframe&amp;lang=pl'
+        src='https://kreator.pierluigi.pl/'
         width='100%'
         height='150%'
       ></iframe>
 
-      <section className='section section--gradient'>
-        <div className='columns'>
-          <div className='column is-10 is-offset-1'>
-            <div className='section'>
-              <PageContent className='content' content={content} />
-            </div>
-          </div>
+      <div className='columns'>
+        <div className='column is-10 is-offset-1'>
+          <PageContent content={content} />
         </div>
-      </section>
+      </div>
     </div>
   );
 };

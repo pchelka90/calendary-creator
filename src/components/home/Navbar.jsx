@@ -73,7 +73,7 @@ const Navbar = () => {
           </Link>
           <Link
             className='nav__link active-link'
-            to='formularz_kontaktowy'
+            to='kontaktowe'
             smooth={true}
             duration={300}
             exact='true'

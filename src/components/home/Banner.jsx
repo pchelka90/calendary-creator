@@ -27,6 +27,8 @@ const Banner = () => {
           </h4>
         </div>
       </div>
+
+      <div className='box'></div>
     </div>
   );
 };

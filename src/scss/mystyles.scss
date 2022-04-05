@@ -1409,6 +1409,8 @@ textarea {
   position: fixed;
   right: 0;
   z-index: 30;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navbar {

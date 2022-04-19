@@ -36,12 +36,7 @@ const Services = () => {
               >
                 <strong>COVID-19</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Maski chirurgiczne, maski z logo, przyłbice, produkty do
-                dezynfekcji i żele do rąk - te i inne przydatne artykuły do
-                ochrony zdrowia znajdziecie Państwo w naszej ofercie przeciwko
-                Covid-19.
-              </p>
+
             </div>
           </div>
         </a>
@@ -77,12 +72,7 @@ const Services = () => {
               >
                 <strong>Ekologia</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Ekologiczne produkty reklamowe oraz gadżety. W ofercie
-                znajdziecie Państwo produkty wykonane z bambusa, łusek kawy,
-                papieru z kamienia, papieru z trawy, kukurydzianego PLA, słomy
-                pszenicznej czy organicznej bawełny.
-              </p>
+
             </div>
           </div>
         </a>
@@ -118,12 +108,7 @@ const Services = () => {
               >
                 <strong>Projektowanie graficzne</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Projektowanie graficzne to nasza pasja. Wykonujemy unikatowe
-                projekty graficzne w tym, logotypy, strony internetowe,
-                identyfikacje wizualne, reklamy wielkoformatowe, grafiki 3D oraz
-                wektorowe.
-              </p>
+
             </div>
           </div>
         </a>
@@ -159,12 +144,7 @@ const Services = () => {
               >
                 <strong>Strony internetowe</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Tworzymy dedykowane strony, sklepy i aplikacje internetowe,
-                wykorzystujemy nowoczesne technologie, dostosowujemy projekty
-                pod każdą rozdzielczość, zadbamy również o pozycjonowanie (SEO),
-                backupy, wsparcie techniczne oraz serwer.
-              </p>
+
             </div>
           </div>
         </a>
@@ -200,11 +180,7 @@ const Services = () => {
               >
                 <strong>Branding</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Wykonujemy pełne systemy służące kreowaniu wizerunku firmy bądź
-                marki charakteryzujące się dopracowanymi znakami graficznymi,
-                starannie dobranymi fontami oraz kolorystyką.
-              </p>
+
             </div>
           </div>
         </a>
@@ -240,11 +216,7 @@ const Services = () => {
               >
                 <strong>Kalendarze książkowe</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Spersonalizowane kalendarze książkowe i notesy, wykonane z
-                ekologicznych materiałów z innowacyjnymi dodatkami. Odporne na
-                wodę i rozdarcia z naturalnie białym środkiem.
-              </p>
+
             </div>
           </div>
         </a>
@@ -280,11 +252,7 @@ const Services = () => {
               >
                 <strong>Kalendarze firmowe</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Realizujemy indywidualne kalendarze ścienne, trójdzielne,
-                biurkowe, oparte o unikalne projekty graficzne, drukowane na
-                ekologicznym papierze z uszlachetnieniami.
-              </p>
+
             </div>
           </div>
         </a>
@@ -320,12 +288,7 @@ const Services = () => {
               >
                 <strong>Gadżety</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Produkujemy ekologiczne gadżety z firmowymi grafikami przy
-                użyciu nowoczesnych technik znakowania oraz inspirujące karty
-                MAGIC, ładowarki indukcyjne, głośniki, pendrive'y i wiele
-                innych.
-              </p>
+
             </div>
           </div>
         </a>
@@ -361,11 +324,7 @@ const Services = () => {
               >
                 <strong>Reklama outdoor</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Projektujemy i montujemy reklamy wielkoformatowe - banery,
-                tablice, siatki mesh, billboardy reklamowe i inne. Zadbamy o
-                odpowiednią lokalizację oraz przygotowanie.
-              </p>
+
             </div>
           </div>
         </a>
@@ -401,11 +360,7 @@ const Services = () => {
               >
                 <strong>Wydruki</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Drukujemy foldery, ulotki, wizytówki, teczki, kalendarze,
-                plakaty, publikacje, katalogi i inne produkty wykorzystując
-                ekologiczny papier oraz farby.
-              </p>
+
             </div>
           </div>
         </a>
@@ -441,12 +396,7 @@ const Services = () => {
               >
                 <strong>Fotografia produktowa</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Opakowania produkowane z wykrojnika o indywidualnych
-                parametrach, z uszlachetnieniami oraz znakowaniem nowoczesnymi
-                technikami. Oferujemy niepowtarzalny projekt graficzny oraz
-                ekologiczne materiały.
-              </p>
+
             </div>
           </div>
         </a>
@@ -482,13 +432,7 @@ const Services = () => {
               >
                 <strong>Filmy reklamowe</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Kręcimy filmy oraz spoty reklamowe według określonego
-                scenariusza, zajmiemy się storyboardem, montażem, postprodukcją
-                oraz efektami specjalnymi. Wykonujemy również szeroki zakres
-                animacji takich jak animacje 2D, 3D, SVG, CSS czy fotograficzne
-                lub rysowane poklatkowe.
-              </p>
+
             </div>
           </div>
         </a>
@@ -524,12 +468,7 @@ const Services = () => {
               >
                 <strong>Opakowania</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Opakowania produkowane z wykrojnika o indywidualnych
-                parametrach, z uszlachetnieniami oraz znakowaniem nowoczesnymi
-                technikami. Oferujemy niepowtarzalny projekt graficzny oraz
-                ekologiczne materiały.
-              </p>
+
             </div>
           </div>
         </a>
@@ -565,11 +504,7 @@ const Services = () => {
               >
                 <strong>Systemy wydawnicze</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Realizujemy całościowe systemy targowe, m.in. ścianki, rollup'y,
-                lady, stoiska multimedialne, systemy wystawiennicze, firmowe
-                flagi oraz przenośnie stoiska targowe.
-              </p>
+
             </div>
           </div>
         </a>
@@ -605,12 +540,7 @@ const Services = () => {
               >
                 <strong>VR</strong>
               </h3>
-              <p className='offp' style={{ fontSize: '14px' }}>
-                Kreujemy wirtualną rzeczywistość dla biznesu, instytucji kultury
-                i marek. Projekty na okulary VR zapewnią twoim klientom
-                niezapomniane przeżycie zarazem kreując nowoczesny wizerunek dla
-                Twojego biznesu.
-              </p>
+            
             </div>
           </div>
         </a>

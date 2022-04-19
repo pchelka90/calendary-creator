@@ -1,25 +1,58 @@
-import React from 'react';
 import './Kreator';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-const Hero = () => {
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+
+// import required modules
+import { EffectFade, Navigation, Pagination } from 'swiper';
+
+export default function App() {
   return (
-    <div className='columns'>
-      <div className='column'>
-        <div data-aos='fade-right' className='hero__content__container'>
-          <img className='heroIMG' src='/assets/images/Napis.svg' />
-        </div>
-      </div>
-      <div className='column'>
-        <div data-aos='fade-left' className='hero__slider__img__container'>
-          <img
-            src='/assets/images/Kreator.svg'
-            className='hero__slider__img'
-            alt='obrazek kreatora'
-          />
-        </div>
-      </div>
-    </div>
+    <>
+      <Swiper
+        spaceBetween={30}
+        effect={'fade'}
+        navigation={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[EffectFade, Navigation, Pagination]}
+        className='mySwiper'
+      >
+        <SwiperSlide>
+          <div className='projektuj'>
+            <h1>Darmowy Kreator Kalendarzy</h1>
+            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
+            <button className='button is-info'>Instrukcja</button>
+            <button className='button is-success'>Kreator</button>
+          </div>
+          <img src='/assets/images/Fortum.jpg' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='projektuj'>
+            <h1>Darmowy Kreator Kalendarzy</h1>
+            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
+            <button className='button is-info'>Instrukcja</button>
+            <button className='button is-success'>Kreator</button>
+          </div>
+          <img src='/assets/images/Magtrans.jpg' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className='projektuj'>
+            <h1>Darmowy Kreator Kalendarzy</h1>
+            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
+            <button className='button is-info'>Instrukcja</button>
+            <button className='button is-success'>Kreator</button>
+          </div>
+          <img src='/assets/images/Orlen.jpg' />
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
-};
-
-export default Hero;
+}

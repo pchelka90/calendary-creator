@@ -1,34 +1,44 @@
-import React from 'react';
-import { photos } from '../utilities/Photos';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-/* popout the browser and maximize to see more rows! -> */
-const Przyklady = () => {
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper';
+
+export default function Przyklady() {
   return (
-    <div>
-      <br />
-      <div className='przyklady' id='kalendarze'>
-
-        <div className='more_projects'>
-          <h1 className='projectsH1'>
-            Zobacz więcej
-            <br />
-            <strong>naszych projektów</strong>
-          </h1>
-          <div className='control'>
-            <a
-              href='https://artopen.pl/portfolio/'
-              className='button is-warning tooltip'
-              target='_blank'
-            >
-              PORTFOLIO {'>'}
-              <span className='tooltiptextdown'>
-                Odwiedź portfolio Art-Open.
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <>
+      <Swiper
+        className='przyklady'
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={'auto'}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+      >
+        <SwiperSlide className='slajdy'>
+          <img src='/assets/Cargounit.jpg' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='/assets/Cermont.jpg' />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src='/assets/Chemeko.jpg' />
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
-};
-export default Przyklady;
+}

@@ -15,44 +15,34 @@ import { EffectFade, Navigation, Pagination } from 'swiper';
 export default function App() {
   return (
     <>
-      <Swiper
-        spaceBetween={30}
-        effect={'fade'}
-        navigation={true}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[EffectFade, Navigation, Pagination]}
-        className='mySwiper'
-      >
-        <SwiperSlide>
-          <div className='projektuj'>
-            <h1>Darmowy Kreator Kalendarzy</h1>
-            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
-            <button className='button is-info'>Instrukcja</button>
-            <button className='button is-success'>Kreator</button>
-          </div>
-          <img src='/assets/images/fortum-desktop.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className='projektuj'>
-            <h1>Darmowy Kreator Kalendarzy</h1>
-            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
-            <button className='button is-info'>Instrukcja</button>
-            <button className='button is-success'>Kreator</button>
-          </div>
-          <img src='/assets/images/magtrans-desktop.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className='projektuj'>
-            <h1>Darmowy Kreator Kalendarzy</h1>
-            <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
-            <button className='button is-info'>Instrukcja</button>
-            <button className='button is-success'>Kreator</button>
-          </div>
-          <img src='/assets/images/Orlen-desktop.jpg' />
-        </SwiperSlide>
-      </Swiper>
+      <div className='swiper-container'>
+        <div className='projektuj'>
+          <h1>Darmowy Kreator Kalendarzy</h1>
+          <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
+          <button className='button is-info'>Instrukcja</button>
+          <button className='button is-success'>Kreator</button>
+        </div>
+        <Swiper
+          spaceBetween={30}
+          effect={'fade'}
+          navigation={true}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[EffectFade, Navigation, Pagination]}
+          className='mySwiper'
+        >
+          <SwiperSlide>
+            <img src='/assets/images/fortum-desktop.jpg' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/assets/images/magtrans-desktop.jpg' />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src='/assets/images/Orlen-desktop.jpg' />
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 }

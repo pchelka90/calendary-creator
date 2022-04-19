@@ -12,13 +12,13 @@ const KreatorCard = (props) => {
         loading='lazy'
         scrolling='no'
         style={{
-          width: '90% !important',
+          width: '100% !important',
           marginTop: '0px',
           height: '865px',
           overflow: 'hidden',
         }}
         src='https://kreator.pierluigi.pl/'
-        width='90%'
+        width='100%'
         height='150%'
       ></iframe>
       <PageContent content={content} />

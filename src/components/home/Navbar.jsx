@@ -39,6 +39,7 @@ const Navbar = () => {
           exact='true'
           offset={-65}
           spy={true}
+          style={{ paddingTop: '50px' }}
         >
           Kreator
         </Link>
@@ -89,13 +90,9 @@ const Navbar = () => {
       </div>
       <div className='nav__toggle' id='nav-toggle'>
         {!toggle ? (
-          <div onClick={() => setToggle(true)}>
-
-          </div>
+          <div onClick={() => setToggle(true)}></div>
         ) : (
-          <div onClick={() => setToggle(false)}>
-            
-          </div>
+          <div onClick={() => setToggle(false)}></div>
         )}
       </div>
     </nav>

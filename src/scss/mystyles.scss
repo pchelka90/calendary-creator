@@ -238,6 +238,9 @@ svg:not(:root).svg-inline--fa {
   .strzalkaImage {
     margin: -7px 23px -83px 203px !important;
   }
+  h1 {
+    font-size: 14px !important;
+  }
 }
 
 @media screen and (min-width: 369px), print {
@@ -378,11 +381,21 @@ svg:not(:root).svg-inline--fa {
     width: calc(100% - 30px) !important;
   }
   h1 {
-    font-size: 24px;
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 8px;
   }
   #kontaktform {
     width: calc(100% - 30px) !important;
     margin-left: 0px !important;
+  }
+  .projektuj {
+    top: 150px !important;
+    left: 50px !important;
+  }
+  .swiper-container {
+    padding-top: 100px !important;
   }
 }
 
@@ -1918,4 +1931,18 @@ img.kontaktowe {
 
 .button-wyslij {
   padding-top: 4%;
+}
+
+.hero-item {
+  color: hsl(205, 100%, 96%);
+}
+
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #23c495;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  color: #23c495;
 }

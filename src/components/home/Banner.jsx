@@ -4,33 +4,6 @@ import Helmet from 'react-helmet';
 const Banner = () => {
   return (
     <>
-<<<<<<< HEAD
-      <Helmet></Helmet>
-      <div className='banner'>
-        <h2 className='bannerH1'>Trzy proste kroki</h2>
-        <div className='columns'>
-          <div className='column'>
-            <p className='bannerP'>1</p>
-            <h2 className='bannerH4'>
-              Skomponuj projekt
-              <br /> swojego kalendarza
-            </h2>
-          </div>
-          <div className='column'>
-            <p className='bannerP'>2</p>
-            <h2 className='bannerH4'>
-              Prześlij nam go
-              <br /> za pomocą formularza
-            </h2>
-          </div>
-          <div className='column'>
-            <p className='bannerP'>3</p>
-            <h2 className='bannerH4'>
-              Otrzymasz kalendarz
-              <br /> z własnym projektem
-            </h2>
-          </div>
-=======
     <Helmet>
     <script type='application/ld+json'>
       {JSON.stringify(howToData)}
@@ -59,10 +32,9 @@ const Banner = () => {
             Otrzymasz kalendarz
             <br /> z własnym projektem
           </h2>
->>>>>>> e207032db106b62d88a429f962f3610b1a535084
         </div>
       </div>
-
+      </div>
       <div
         id='instrukcja'
         className='columns'

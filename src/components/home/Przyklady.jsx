@@ -1,5 +1,4 @@
 import React from 'react';
-import Gallery from 'react-photo-gallery';
 import { photos } from '../utilities/Photos';
 
 /* popout the browser and maximize to see more rows! -> */
@@ -8,7 +7,7 @@ const Przyklady = () => {
     <div>
       <br />
       <div className='przyklady' id='kalendarze'>
-        <Gallery className='przyklady' photos={photos} />
+
         <div className='more_projects'>
           <h1 className='projectsH1'>
             Zobacz więcej

@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import { Link, animateScroll } from 'react-scroll';
 
 const Navbar = () => {
@@ -92,11 +90,11 @@ const Navbar = () => {
       <div className='nav__toggle' id='nav-toggle'>
         {!toggle ? (
           <div onClick={() => setToggle(true)}>
-            <FontAwesomeIcon icon={faBars} />
+
           </div>
         ) : (
           <div onClick={() => setToggle(false)}>
-            <FontAwesomeIcon icon={faTimes} />
+            
           </div>
         )}
       </div>

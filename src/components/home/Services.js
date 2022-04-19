@@ -3,7 +3,7 @@ import React from 'react';
 const Services = () => {
   return (
     <div>
-      <div className='offert' id='services'>
+      <div className='offert' id='services' style={{padding:'5%'}}>
         <a
           className='offer'
           href='https://artopen.pl/oferta/covid-19/'
@@ -79,7 +79,7 @@ const Services = () => {
         <a
           className='offer'
           target='_blank'
-          href='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
+          href='https://artopen.pl/oferta/projektowanie-graficzne/'
           style={{
             margin: '1% 1% 30px',
             textAlign: 'left',
@@ -223,7 +223,7 @@ const Services = () => {
         <a
           className='offer'
           target='_blank'
-          href='https://artopen.pl/portfolio/kalendarze-ksiazkowe-kghm/'
+          href='https://artopen.pl/oferta/kalendarze-firmowe/'
           style={{
             margin: '1% 1% 30px',
             textAlign: 'left',
@@ -380,7 +380,7 @@ const Services = () => {
             <div style={{ textAlign: 'center' }}>
               <img
                 className='obrazki'
-                alt='Projektowanie graficzne'
+                alt='fotografia'
                 src='/assets/images/camera-retro.svg'
               />
             </div>
@@ -540,7 +540,7 @@ const Services = () => {
               >
                 <strong>VR</strong>
               </h3>
-            
+
             </div>
           </div>
         </a>

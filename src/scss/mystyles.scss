@@ -1441,8 +1441,8 @@ textarea {
 }
 
 .footer {
-  background-color: #111 !important;
-  color: #fff;
+  background-color: #23c495 !important;
+  color: white;
 }
 
 .footer {
@@ -1816,11 +1816,12 @@ img.obrazki {
   text-align: left;
 }
 
-#kontaktowe {
+.kontaktowe {
   text-align: left;
   margin-top: 2rem;
   display: flex;
   flex-direction: row;
+  filter: brightness(0) invert(1);
   justify-content: space-evenly;
 }
 
@@ -1853,6 +1854,12 @@ img.kontaktowe {
   width: 25px;
   padding: 0px;
   margin: 5px;
+  filter: brightness(0) invert(1);
+  transition-duration: 1.5s;
+}
+.icon-sociale:hover{
+  transform: scale(1.2);
+  transition-duration: 1.5s;
 }
 
 .filizanka {

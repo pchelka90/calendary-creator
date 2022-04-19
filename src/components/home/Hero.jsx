@@ -1,4 +1,5 @@
 import './Kreator';
+import { Link, animateScroll } from 'react-scroll';
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -18,9 +19,32 @@ export default function App() {
       <div className='swiper-container'>
         <div className='projektuj'>
           <h1>Darmowy Kreator Kalendarzy</h1>
-          <h2>Zaprojektuj swój własny kalendarz już dziś</h2>
-          <button className='button is-info'>Instrukcja</button>
-          <button className='button is-success'>Kreator</button>
+          <h2>
+            Zaprojektuj swój własny
+            <br /> kalendarz już dziś
+          </h2>
+          <button className='button is-info'>
+            <Link
+              to='instrukcja'
+              className='hero-item'
+              onClick={() => {
+                animateScroll.scrollToTop();
+              }}
+            >
+              Instrukcja
+            </Link>
+          </button>
+          <button className='button is-success'>
+            <Link
+              to='kreator'
+              className='hero-item'
+              onClick={() => {
+                animateScroll.scrollToTop();
+              }}
+            >
+              Kreator
+            </Link>
+          </button>
         </div>
         <Swiper
           spaceBetween={30}

@@ -73,12 +73,12 @@ class Form extends React.Component {
     return (
       <div className='contact-box' id='kontakt'>
         <div className='formularzyk'>
-          <h1 className='formH1'>
+          <h2 className='formH1'>
             <img className='formIMG' src='/assets/images/list.svg' />
             <strong>Prześlij swój projekt</strong>
             <br />
             za pomocą formularza
-          </h1>
+          </h2>
         </div>
         <img className='strzaleczka' src='/assets/images/strzaleczka.png' />
         <form

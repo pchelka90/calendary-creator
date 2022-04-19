@@ -7,13 +7,13 @@ const Kreator = () => {
   return (
     <div data-aos='zoom-in' id='kreator'>
       <div className='title'>
-        <h1 className='kreatorH1'>
+        <h2 className='kreatorH1'>
           Teraz twoja kolej
           <img className='kreatorImage' src='/assets/images/Zarowka.svg' />
           <br />
           <strong>POKAŻ NA CO CIĘ STAĆ</strong>
           <img className='strzalkaImage' src='/assets/images/strzalka.png' />
-        </h1>
+        </h2>
         <br />
       </div>
       <div className='kreator-card'>{<KreatorCard />}</div>

@@ -4,16 +4,17 @@ import { photos } from '../utilities/Photos';
 /* popout the browser and maximize to see more rows! -> */
 const Przyklady = () => {
   return (
+    <>
     <div>
       <br />
       <div className='przyklady' id='kalendarze'>
 
         <div className='more_projects'>
-          <h1 className='projectsH1'>
+          <h2 className='projectsH1'>
             Zobacz więcej
             <br />
             <strong>naszych projektów</strong>
-          </h1>
+          </h2>
           <div className='control'>
             <a
               href='https://artopen.pl/portfolio/'
@@ -29,6 +30,7 @@ const Przyklady = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Przyklady;

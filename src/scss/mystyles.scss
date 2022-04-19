@@ -693,12 +693,18 @@ svg:not(:root).svg-inline--fa {
   }
 }
 
+.label {
+  font-weight: 900;
+}
+
 .label_imie {
   font-weight: 900;
+  margin-bottom: 0.5em;
 }
 
 .label_email {
   font-weight: 900;
+  margin-bottom: 0.5em;
 }
 
 .label_wiadomosc {
@@ -1889,8 +1895,9 @@ img.kontaktowe {
 
 .projektuj {
   position: absolute;
-  left: 5%;
-  top: 35%;
+  top: 300px;
+  left: 100px;
+  z-index: 10;
 }
 
 .obrazek-kreator {
@@ -1914,4 +1921,8 @@ img.kontaktowe {
 
 .green {
   color: #23c495;
+}
+
+.button-wyslij {
+  padding-top: 4%;
 }

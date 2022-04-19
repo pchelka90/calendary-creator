@@ -151,7 +151,7 @@ class Form extends React.Component {
 
                   <div className='file'>
                     <label
-                      htmlFor='file'
+                      htmlFor={'file'}
                       className='file-label'
                       style={{ cursor: 'pointer' }}
                     >
@@ -169,7 +169,7 @@ class Form extends React.Component {
                       className='input-group-text btn btn-danger'
                       onClick={selectFile}
                     >
-                      Select an image from your device...
+                      Załącz plik z dysku...
                     </button>
                   </div>
                   <br />
@@ -223,10 +223,10 @@ class Form extends React.Component {
                       polityką prywatności
                     </a>
                   </label>
-                  <div className='button_wyslij'>
+                  <div className='button-wyslij'>
                     <button
                       className='button is-primary'
-                      style={{ border: '1px solid white' }}
+                      style={{ border: '2px solid yellow' }}
                       type='submit'
                       onSubmit={this.handleSubmit}
                       onClick={showFileSize}

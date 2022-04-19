@@ -29,15 +29,12 @@ export default function Przyklady() {
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
       >
-        <SwiperSlide className='slajdy'>
-          <img src='/assets/images/Cargounit.jpg' />
+        <SwiperSlide className='slajdy' style={{display:'flex'}}>
+          <img style={{width:'33.33%'}} src='/assets/images/Cargounit.jpg' />
+          <img style={{width:'33.33%'}} src='/assets/images/Cermont.jpg' />
+          <img style={{width:'33.33%'}} src='/assets/images/Chemeko.jpg' />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src='/assets/images/Cermont.jpg' />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src='/assets/images/Chemeko.jpg' />
-        </SwiperSlide>
+
       </Swiper>
     </>
   );

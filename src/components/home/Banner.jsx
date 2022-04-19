@@ -4,9 +4,7 @@ import Helmet from 'react-helmet';
 const Banner = () => {
   return (
     <>
-      <Helmet>
-        <script type='application/ld+json'>{JSON.stringify(howToData)}</script>
-      </Helmet>
+      <Helmet></Helmet>
       <div className='banner'>
         <h2 className='bannerH1'>Trzy proste kroki</h2>
         <div className='columns'>

@@ -42,8 +42,9 @@ const Banner = () => {
         </figure>
         <br />
         <h3 style={{textAlign:'center'}}>Dostępne formaty:</h3>
+        <br />
         <div className="columns" style={{justifyContent:'center'}}>
-        <ul className="column" style={{listStyle:'disc',marginLeft:'20px'}}>
+        <ul className="column" style={{listStyle:'disc',marginLeft:'5%'}}>
         <li> 501D = Format zbliżony do A4 (200x280mm)</li>
         <li> 502T = format zbliżony do B5 (208x260mm)</li>
         <li> 503D = format zbliżony do A5 (143x203mm)</li>
@@ -54,7 +55,7 @@ const Banner = () => {
         <li> 509T = (149x203mm)</li>
         <li> 510D = (143x203mm)</li>
         </ul>
-        <ul className="column" style={{listStyle:'disc',marginLeft:'20px'}}>
+        <ul className="column" style={{listStyle:'disc',marginLeft:'5%'}}>
         <li> 511T = (208x260mm)</li>
         <li> 512T = (167x240mm)</li>
         <li> 514T = (167x240mm)</li>

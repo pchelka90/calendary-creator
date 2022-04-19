@@ -30,13 +30,13 @@ export default function Przyklady() {
         modules={[EffectCoverflow, Pagination]}
       >
         <SwiperSlide className='slajdy'>
-          <img src='/assets/Cargounit.jpg' />
+          <img src='/assets/images/Cargounit.jpg' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/assets/Cermont.jpg' />
+          <img src='/assets/images/Cermont.jpg' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src='/assets/Chemeko.jpg' />
+          <img src='/assets/images/Chemeko.jpg' />
         </SwiperSlide>
       </Swiper>
     </>

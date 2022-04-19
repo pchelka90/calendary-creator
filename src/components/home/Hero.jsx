@@ -32,7 +32,7 @@ export default function App() {
             <button className='button is-info'>Instrukcja</button>
             <button className='button is-success'>Kreator</button>
           </div>
-          <img src='/assets/images/Fortum.jpg' />
+          <img src='/assets/images/fortum-desktop.jpg' />
         </SwiperSlide>
         <SwiperSlide>
           <div className='projektuj'>
@@ -41,7 +41,7 @@ export default function App() {
             <button className='button is-info'>Instrukcja</button>
             <button className='button is-success'>Kreator</button>
           </div>
-          <img src='/assets/images/Magtrans.jpg' />
+          <img src='/assets/images/magtrans-desktop.jpg' />
         </SwiperSlide>
         <SwiperSlide>
           <div className='projektuj'>
@@ -50,7 +50,7 @@ export default function App() {
             <button className='button is-info'>Instrukcja</button>
             <button className='button is-success'>Kreator</button>
           </div>
-          <img src='/assets/images/Orlen.jpg' />
+          <img src='/assets/images/Orlen-desktop.jpg' />
         </SwiperSlide>
       </Swiper>
     </>

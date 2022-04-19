@@ -103,7 +103,7 @@ class Form extends React.Component {
                     <input name='bot-field' onChange={this.handleChange} />
                   </label>
                 </div>
-                <label className='label_imie' htmlFor={'name'}>
+                <label className='label' htmlFor={'name'}>
                   Imię i nazwisko<sup>*</sup>:
                 </label>
                 <div className='control'>
@@ -116,7 +116,7 @@ class Form extends React.Component {
                     required={true}
                   />
                 </div>
-                <label className='label_email' htmlFor={'email'}>
+                <label className='label' htmlFor={'email'}>
                   Adres E-mail<sup>*</sup>:
                 </label>
                 <div className='control'>
@@ -129,22 +129,21 @@ class Form extends React.Component {
                     required={true}
                   />
                 </div>
-                <div className='field numer_tel'>
+
                   <label className='label' htmlFor={'name'}>
                     Numer telefonu:
                   </label>
                   <div className='control'>
                     <input
                       className='input'
-                      type={'number'}
+                      type={'tel'}
                       name={'numer telefonu'}
                       onChange={this.handleChange}
                       id={'numertelnew'}
                       required={false}
                     />
                   </div>
-                </div>
-
+                  <br />
                 <div className='control'>
                   <label className='label is-size-10'>Załącz plik:</label>
                   {/*załącz logo*/}
@@ -165,8 +164,8 @@ class Form extends React.Component {
                       />
                     </label>
                     <button
-                      style={{ fontSize: '22px' }}
-                      className='input-group-text btn btn-danger'
+                      style={{ fontSize: '22px', border:'1px solid white', width:'100%' }}
+                      className='button is-primary'
                       onClick={selectFile}
                     >
                       Załącz plik z dysku...
@@ -182,7 +181,6 @@ class Form extends React.Component {
                       fontSize: '12px',
                     }}
                   >
-                    {' '}
                     Maksymalna wielkość pliku to <b>1MB</b>.{' '}
                   </p>
                 </div>
@@ -214,7 +212,7 @@ class Form extends React.Component {
                       defaultChecked='true'
                       value='true'
                     />
-                    Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą{' '}
+                    &nbsp;&nbsp;Wyrażam zgodę na przetwarzanie moich danych zgodnie z naszą{' '}
                     <a
                       className='link-green'
                       style={{ color: 'white' }}
@@ -223,10 +221,11 @@ class Form extends React.Component {
                       polityką prywatności
                     </a>
                   </label>
+                  <br />
                   <div className='button-wyslij'>
                     <button
                       className='button is-primary'
-                      style={{ border: '2px solid yellow' }}
+                      style={{ border: '1px solid white',fontSize:'22px', width:'100%' }}
                       type='submit'
                       onSubmit={this.handleSubmit}
                       onClick={showFileSize}

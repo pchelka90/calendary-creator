@@ -2,8 +2,9 @@ import React from 'react';
 
 const Services = () => {
   return (
+    <>
     <div>
-      <div className='offert' id='services'>
+      <div className='offert' id='services' style={{padding:'5%'}}>
         <a
           className='offer'
           href='https://artopen.pl/oferta/covid-19/'
@@ -79,7 +80,7 @@ const Services = () => {
         <a
           className='offer'
           target='_blank'
-          href='https://artopen.pl/portfolio/projektowanie-graficzne-koleje-dolnoslaskie/'
+          href='https://artopen.pl/oferta/projektowanie-graficzne/'
           style={{
             margin: '1% 1% 30px',
             textAlign: 'left',
@@ -223,7 +224,7 @@ const Services = () => {
         <a
           className='offer'
           target='_blank'
-          href='https://artopen.pl/portfolio/kalendarze-ksiazkowe-kghm/'
+          href='https://artopen.pl/oferta/kalendarze-firmowe/'
           style={{
             margin: '1% 1% 30px',
             textAlign: 'left',
@@ -380,7 +381,7 @@ const Services = () => {
             <div style={{ textAlign: 'center' }}>
               <img
                 className='obrazki'
-                alt='Projektowanie graficzne'
+                alt='fotografia'
                 src='/assets/images/camera-retro.svg'
               />
             </div>
@@ -540,12 +541,27 @@ const Services = () => {
               >
                 <strong>VR</strong>
               </h3>
-            
+
             </div>
           </div>
         </a>
       </div>
     </div>
+
+
+    <div className="container" style={{paddingBottom:'75px'}}>
+    <h2 style={{textAlign:'left'}}>Lorem SEO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 style={{textAlign:'left'}}>Lorem SEO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 style={{textAlign:'left'}}>Lorem SEO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 style={{textAlign:'left'}}>Lorem SEO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <h2 style={{textAlign:'left'}}>Lorem SEO</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    </>
   );
 };
 

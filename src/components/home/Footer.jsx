@@ -9,25 +9,27 @@ class Footer extends React.Component {
         style={{ alignItems: 'bottom', paddingBottom: '30px', paddingLeft:'10%', paddingRight:'10%'  }}
       >
       <div>
-        <div className='kontakt columns' id='kontaktowe'>
+        <div className='kontakt columns' id='kontaktowe' style={{alignItems:'center',justifyContent:'center'}}>
           <div style={{ lineHeight: '40px', textAlign: 'left' }} className="column">
             <h2 style={{textAlign:'left',fontWeight:'800'}}>Kontakt</h2>
-            <h4 style={{ marginBottom: '30px', textAlign: 'left' }}>
+            <p style={{ marginBottom: '30px', textAlign: 'left' }}>
               <img
                 className='kontaktowe'
                 alt='godziny otwarcia'
                 src='/assets/images/clock.svg'
+                style={{width:'30px'}}
               />
               Pon. - Czw.: 8:00 - 16:30<br />
-              Pt.: 8:00 - 14:00
+              <span style={{marginLeft:'30px'}}>Pt.: 8:00 - 14:00</span>
 
-            </h4>
+            </p>
 
             <p>
               <img
                 className='kontaktowe'
                 alt='ulica'
                 src='/assets/images/map-marker-alt.svg'
+                style={{width:'30px'}}
               />
               ul. Piotra Ignuta 87
             </p>
@@ -38,26 +40,18 @@ class Footer extends React.Component {
                 style={{ verticalAlign: 'middle' }}
                 alt='miasto'
                 src='/assets/images/city.svg'
+                style={{width:'30px'}}
               />
               54-151 Wrocław
             </p>
 
-            <br />
-
-            <h4
-              style={{
-                marginBottom: '20px',
-              }}
-            >
-              {' '}
-              Kontakt mailowy lub telefoniczny:{' '}
-            </h4>
             <div style={{ marginBottom: '20px', width: '126%' }}>
               <a href='mailto:biuro@artopen.pl' className='link-green' style={{ color: 'white' }}>
                 <img
                   className='kontaktowe'
                   alt='email'
                   src='/assets/images/envelope-alt.svg'
+                  style={{width:'30px'}}
                 />
                 biuro@artopen.pl
               </a>
@@ -69,6 +63,7 @@ class Footer extends React.Component {
                   className='kontaktowe'
                   alt='numer telefonu'
                   src='/assets/images/phone.svg'
+                  style={{width:'30px'}}
                 />
                 Tel: +48 71 728 29 13
               </a>
@@ -80,6 +75,7 @@ class Footer extends React.Component {
                   className='kontaktowe'
                   alt='numer komórkowy'
                   src='/assets/images/mobile.svg'
+                  style={{width:'30px'}}
                 />
                 Kom: +48 535 000 881
               </a>
@@ -105,9 +101,10 @@ class Footer extends React.Component {
           >
             {' '}
             <img
-              className='kontaktowe'
+              className='kontaktowe btn'
               alt='adres'
               src='/assets/images/address-card.svg'
+              style={{width:'30px'}}
             />
             opinie Google
             <span className='tooltiptextup'>

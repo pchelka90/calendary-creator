@@ -1874,7 +1874,7 @@ img.kontaktowe {
   filter: brightness(0) invert(1);
   transition-duration: 1.5s;
 }
-.icon-sociale:hover{
+.icon-sociale:hover {
   transform: scale(1.2);
   transition-duration: 1.5s;
 }
@@ -1950,4 +1950,10 @@ img.kontaktowe {
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
   color: #23c495;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #23c495;
 }

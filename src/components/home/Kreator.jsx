@@ -9,10 +9,18 @@ const Kreator = () => {
       <div className='title'>
         <h2 className='kreatorH1'>
           Teraz twoja kolej
-          <img className='kreatorImage' src='/assets/images/Zarowka.svg' />
+          <img
+            className='kreatorImage'
+            src='/assets/images/Zarowka.svg'
+            alt='ikona palącej się żarówki'
+          />
           <br />
           <strong>POKAŻ NA CO CIĘ STAĆ</strong>
-          <img className='strzalkaImage' src='/assets/images/strzalka.png' />
+          <img
+            className='strzalkaImage'
+            src='/assets/images/strzalka.png'
+            alt='ikona strzałki wskazującej'
+          />
         </h2>
         <br />
       </div>

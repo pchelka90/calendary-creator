@@ -45,7 +45,7 @@ const Navbar = () => {
         </Link>
         <Link
           className='navbar-item nav__link active-link'
-          to='kontakt'
+          to='contact'
           smooth={true}
           duration={300}
           exact='true'
@@ -67,7 +67,7 @@ const Navbar = () => {
         </Link>
         <Link
           className='navbar-item nav__link active-link'
-          to='services'
+          to='oferta'
           smooth={true}
           duration={300}
           exact='true'

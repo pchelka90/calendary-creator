@@ -9,7 +9,7 @@ const Banner3 = lazy(() => import('./Banner3'));
 const Kreator = lazy(() => import('./Kreator'));
 const Form = lazy(() => import('./Form'));
 const Przyklady = lazy(() => import('./Przyklady'));
-const Services = lazy(() => import('./Services'));
+const Oferta = lazy(() => import('./Oferta'));
 const Footer = lazy(() => import('./Footer'));
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
       <Banner2 />
       <Przyklady />
       <Banner3 />
-      <Services />
+      <Oferta />
       <Footer />
     </Suspense>
   );

@@ -1,0 +1,3 @@
+# Redirect all domains to main domain
+https://kreator-kalendarza.pl/* https://kreator-kalendarzy.pl/:splat 301!
+http://kreator-kalendarza.pl/* https://kreator-kalendarzy.pl/:splat 301!

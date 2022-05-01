@@ -167,7 +167,7 @@ h6 {
 
 .navbar.is-fixed-top {
   top: 0;
-  padding: 20px;
+  padding: 10px !important;
 }
 
 .nav__menu,
@@ -383,15 +383,12 @@ svg:not(:root).svg-inline--fa {
   h1 {
     font-size: 14px;
   }
-  h2 {
-    font-size: 8px;
-  }
-  #kontaktform {
+  .boxshadow {
     width: calc(100% - 30px) !important;
     margin-left: 0px !important;
   }
   .projektuj {
-    top: 150px !important;
+    top: 100px !important;
     left: 50px !important;
   }
   .swiper-container {
@@ -567,7 +564,7 @@ svg:not(:root).svg-inline--fa {
     z-index: var(--z-fixed);
     display: grid;
     background-color: #23c495;
-    opacity: 0.8;
+    opacity: 0.9;
     height: auto;
   }
   .navbar.is-fixed-bottom,
@@ -963,13 +960,13 @@ strong {
 
 .link-green {
   transition-duration: 0.5s;
-  color: #23c495;
+  color: #133d63;
 }
 
 .link-green:hover {
   transition-duration: 0.5s;
-  color: #23c495;
   font-weight: 900;
+  text-decoration: underline;
 }
 
 .tooltip {
@@ -1504,7 +1501,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-#kontaktform {
+.boxshadow {
   max-width: 600px;
   margin-top: 0px;
   padding-top: 0px;
@@ -1712,7 +1709,6 @@ textarea {
 
 .banner2 {
   width: 100%;
-  min-height: 200px;
   background-color: #23c495;
   color: #fff;
   padding: 60px;
@@ -1906,7 +1902,7 @@ img.kontaktowe {
 
 .projektuj {
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 100px;
   z-index: 10;
 }
@@ -1932,9 +1928,10 @@ img.kontaktowe {
 
 .green {
   color: #23c495;
+  font-weight: 900;
 }
 
-.button-wyslij {
+.field {
   padding-top: 4%;
 }
 
@@ -1956,4 +1953,16 @@ img.kontaktowe {
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
   background-color: #23c495;
+}
+
+.active-link.active {
+  color: white !important;
+}
+@media screen and (min-width: 770px) {
+  .active-link.active {
+    color: #23c495 !important;
+  }
+}
+#fuse-splash-screen > div > div > div > img.img-logo {
+  display: none !important;
 }

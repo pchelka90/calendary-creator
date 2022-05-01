@@ -14,8 +14,14 @@
       rel="preconnect dns-prefetch"
       href="https://www.google-analytics.com"
     />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MF52P0CR3V"></script>
     <script>
-      window['ga-disable-'] = true;
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-MF52P0CR3V');
     </script>
     <meta name="theme-color" content="#23C495" />
     <link
@@ -28,25 +34,31 @@
       sizes="512x512"
       href="/icons/icon-512-512.png"
     />
-    <link rel="stylesheet" href="assets/fonts/Montserrat/" />
-    <link rel="stylesheet" href="scss/mystyles.scss" />
-    <link rel="stylesheet" href="scss/swiper.scss" />
-    <title>Darmowy kreator kalendarza online</title>
+
+    <title>Darmowy kreator kalendarzy online</title>
     <!-- OpenGraph -->
-    <meta name='image' content="" />
-    <meta property='og:url' content="" />
+    <meta name='image' content="https://kreator-kalendarzy.pl/assets/images/mockup-kreator.jpg" />
+    <meta property='og:url' content="https://kreator-kalendarzy.pl" />
     <meta property='og:type' content='article' />
-    <meta property='og:title' content="" />
-    <meta property='og:description' content="" />
-    <meta property='og:image' content="" />
+    <meta property='og:title' content="Darmowy kreator kalendarzy" />
+    <meta property='og:description' content="Darmowy kreator kalendarzy książkowych online - zaprojektuj i zamów swój własny kalendarz!" />
+    <meta property='og:image' content="https://kreator-kalendarzy.pl/assets/images/mockup-kreator.jpg" />
     <!-- Twitter -->
     <meta name='twitter:card' content='summary_large_image' />
     <meta name='twitter:creator' content="Art Open" />
-    <meta name='twitter:title' content="Darmowy kreator kalendarza" />
-    <meta name='twitter:description' content="Darmowy kreator kalendarzy - zaprojektuj swój własny kalendarz!" />
-    <meta name='twitter:image' content="" />
+    <meta name='twitter:title' content="Darmowy kreator kalendarzy" />
+    <meta name='twitter:description' content="Darmowy kreator kalendarzy książkowych online - zaprojektuj i zamów swój własny kalendarz!" />
+    <meta name='twitter:image' content="https://kreator-kalendarzy.pl/assets/images/mockup-kreator.jpg" />
+  </head>
   <body>
+    <form name="fileForm" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="imie" />
+      <input type="email" name="adres-email" />
+      <input type="tel" name="numer-telefonu" />
+      <input type="file" name="plik" />
+      <textarea name="wiadomosc"></textarea>
+    </form>
     <div id="root"></div>
-    <script src="/src/index.js"></script>
+    
   </body>
 </html>

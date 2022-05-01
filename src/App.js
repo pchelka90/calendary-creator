@@ -1,9 +1,11 @@
-import React, { useEffect } from 'react';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
-import Home from './components/home/Home';
-import SuccessPage from './components/home/kontakt/sukces';
+import React from 'react';
+import { useEffect } from 'react';
+import { Routes, Route, Outlet, Link } from 'react-router-dom';
+import Home from './Components/home/Home';
+import NoMatch from './Components/home/NoMatch';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import SuccessPage from './Components/home/SuccessPage';
 
 function App() {
   useEffect(() => {
@@ -13,12 +15,13 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <div>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='sukces' element={<SuccessPage />} />
+        <Route path='/sukces' element={<SuccessPage />} />
+        <Route path='*' element={<NoMatch />} />
       </Routes>
-    </BrowserRouter>
+    </div>
   );
 }
 

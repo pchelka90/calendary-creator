@@ -1324,7 +1324,7 @@
     error-stack-parser "^2.0.6"
     find-up "^5.0.0"
     html-entities "^2.1.0"
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
@@ -1473,7 +1473,7 @@
     "@svgr/core" "^5.5.0"
     "@svgr/plugin-jsx" "^5.5.0"
     "@svgr/plugin-svgo" "^5.5.0"
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
 
 "@testing-library/dom@^7.28.1":
   version "7.31.2"
@@ -2041,7 +2041,7 @@ adjust-sourcemap-loader@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/adjust-sourcemap-loader/-/adjust-sourcemap-loader-4.0.0.tgz"
   dependencies:
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
     regex-parser "^2.2.11"
 
 agent-base@6, agent-base@^6.0.2:
@@ -2322,7 +2322,7 @@ babel-loader@^8.2.3:
   resolved "https://registry.npmjs.org/babel-loader/-/babel-loader-8.2.4.tgz"
   dependencies:
     find-cache-dir "^3.3.1"
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
     make-dir "^3.1.0"
     schema-utils "^2.6.5"
 
@@ -3882,7 +3882,7 @@ file-loader@^6.2.0:
   version "6.2.0"
   resolved "https://registry.npmjs.org/file-loader/-/file-loader-6.2.0.tgz"
   dependencies:
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
     schema-utils "^3.0.0"
 
 filelist@^1.0.1:
@@ -5335,17 +5335,17 @@ loader-runner@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npmjs.org/loader-runner/-/loader-runner-4.2.0.tgz"
 
-loader-utils@^2.0.0:
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.4.tgz#8b5cb38b5c34a9a018ee1fc0e6a066d1dfcc528c"
+loader-utils@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-3.2.1.tgz#8b5cb38b5c34a9a018ee1fc0e6a066d1dfcc528c"
   dependencies:
     big.js "^5.2.2"
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-loader-utils@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-3.2.0.tgz"
+loader-utils@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.npmjs.org/loader-utils/-/loader-utils-3.2.1.tgz"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -6728,7 +6728,7 @@ react-dev-utils@^12.0.1:
     gzip-size "^6.0.0"
     immer "^9.0.7"
     is-root "^2.1.0"
-    loader-utils "^3.2.0"
+    loader-utils "3.2.1"
     open "^8.4.0"
     pkg-up "^3.1.0"
     prompts "^2.4.2"
@@ -7041,7 +7041,7 @@ resolve-url-loader@^4.0.0:
   dependencies:
     adjust-sourcemap-loader "^4.0.0"
     convert-source-map "^1.7.0"
-    loader-utils "^2.0.0"
+    loader-utils "3.2.1"
     postcss "^7.0.35"
     source-map "0.6.1"
 

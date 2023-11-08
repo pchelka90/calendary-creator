@@ -22,7 +22,7 @@ const KreatorCard = (props) => {
             width: '100% !important',
             marginTop: '0px',
             height: '865px',
-            overflow: 'hidden',
+            overflow: 'active',
           }}
           src='https://kreator.pierluigi.pl/'
           width='100%'

@@ -20,7 +20,7 @@ export default function Przyklady() {
           grabCursor={true}
           loop={true}
           centeredSlides={true}
-          slidesPerView={'auto'}
+          slidesPerView={3000}
           coverflowEffect={{
             rotate: 50,
             stretch: 0,

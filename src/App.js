@@ -10,7 +10,7 @@ import SuccessPage from './Components/home/SuccessPage';
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1250,
+      duration: 1350,
     });
   }, []);
 

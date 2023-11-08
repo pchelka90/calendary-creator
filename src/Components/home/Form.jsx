@@ -144,7 +144,7 @@ class Form extends React.Component {
                       <input
                         className='button is-primary'
                         style={{
-                          fontSize: '22px',
+                          fontSize: '20px',
                           border: '1px solid white',
                           width: '100%',
                         }}

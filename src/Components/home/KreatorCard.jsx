@@ -17,7 +17,7 @@ const KreatorCard = (props) => {
           title='Darmowy kreator kalendarzy online'
           allowtransparency='true'
           loading='lazy'
-          scrolling='no'
+          scrolling='yes'
           style={{
             width: '100% !important',
             marginTop: '0px',

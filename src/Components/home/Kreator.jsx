@@ -5,7 +5,7 @@ const Kreator = () => {
   <KreatorCard />;
 
   return (
-    <div data-aos='zoom-in' id='kreator' style={{ paddingTop: '50px' }}>
+    <div data-aos='zoom-in' id='kreator' label='kreator' style={{ paddingTop: '50px' }}>
       <div className='title'>
         <h2 className='kreatorH1'>
           Teraz twoja kolej

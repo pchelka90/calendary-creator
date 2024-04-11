@@ -20,6 +20,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/sukces' element={<SuccessPage />} />
         <Route path='*' element={<NoMatch />} />
+        <Route path=/>
       </Routes>
     </div>
   );
